@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-<p align="center"><img src="assets/banner.png" alt="Cifras Clássicas" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Cifras Clássicas" width="100%"></p>
 
 <p align="center">
 <img alt="Python" src="https://img.shields.io/badge/Python-3.10+-F59E0B?style=for-the-badge&logo=python&logoColor=white">
@@ -13,7 +13,7 @@
 
 <a id="sobre"></a>
 
-<p><img src="assets/secao-01.png" alt="Sobre o projeto" width="100%"></p>
+<p><img src="assets/secao-01.svg" alt="Sobre o projeto" width="100%"></p>
 
 Todo curso de segurança começa falando da cifra de César e eu sempre achei aquilo meio bobo, até entender o ponto. Ninguém usa César hoje, mas **o motivo de ela ter caído** é a base de toda a criptografia moderna. Se a cifra deixa o padrão da língua passar, a matemática quebra ela, não importa quão secreta seja a chave.
 
@@ -21,7 +21,7 @@ Esse projeto implementa César, Vigenère e XOR e, mais importante, **quebra** C
 
 <a id="como-funciona"></a>
 
-<p><img src="assets/secao-02.png" alt="Como funciona" width="100%"></p>
+<p><img src="assets/secao-02.svg" alt="Como funciona" width="100%"></p>
 
 **Quebrando a César.** Em português, A, E e O aparecem muito mais que as outras letras. A César só desloca o alfabeto, então esse "formato" continua igual, só que deslocado. O programa testa os 26 deslocamentos e mede com o teste **qui-quadrado** qual deles deixa a frequência mais parecida com a do português.
 
@@ -44,7 +44,7 @@ Um detalhe que me pegou nos testes. O tamanho 10 apareceu com IC um pouco maior 
 
 <a id="rodando"></a>
 
-<p><img src="assets/secao-03.png" alt="Rodando na sua máquina" width="100%"></p>
+<p><img src="assets/secao-03.svg" alt="Rodando na sua máquina" width="100%"></p>
 
 Só precisa de Python 3.10 ou mais novo. O texto aceita uma frase direta, um caminho de arquivo ou `-` para ler da entrada padrão.
 
@@ -69,7 +69,7 @@ python -m pytest -q
 
 Os testes cifram o texto de exemplo com uma chave e conferem que o programa recupera a mesma chave sozinho.
 
-<p><img src="assets/secao-04.png" alt="Exemplo de saída" width="100%"></p>
+<p><img src="assets/secao-04.svg" alt="Exemplo de saída" width="100%"></p>
 
 O texto de `exemplos/texto.txt` cifrado com Vigenère e a chave `lince` começa assim
 
@@ -97,7 +97,7 @@ A criptografia acompanha a humanidade ha muito tempo. Os generais romanos ...
 
 <a id="aprendi"></a>
 
-<p><img src="assets/secao-05.png" alt="O que eu aprendi" width="100%"></p>
+<p><img src="assets/secao-05.svg" alt="O que eu aprendi" width="100%"></p>
 
 - Por que esconder o padrão é mais importante que esconder a chave
 - Qui-quadrado e índice de coincidência na prática, com números de verdade
@@ -113,7 +113,7 @@ Próximos passos
 
 <a id="estudos"></a>
 
-<p><img src="assets/secao-06.png" alt="Estudei por aqui" width="100%"></p>
+<p><img src="assets/secao-06.svg" alt="Estudei por aqui" width="100%"></p>
 
 Segui essas aulas e materiais para entender e aplicar tudo que está aqui.
 
