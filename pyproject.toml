@@ -1,0 +1,14 @@
+[project]
+name = "cifras-classicas"
+version = "1.0.0"
+description = "César, Vigenère e XOR, e a criptoanálise por frequência que quebra cada uma"
+requires-python = ">=3.10"
+authors = [{ name = "Arthur Entsev" }]
+license = { text = "MIT" }
+
+[project.scripts]
+cifras = "cifras.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
